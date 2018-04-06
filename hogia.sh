@@ -39,7 +39,7 @@ EOM
 }
 
 EVENT_ID=""
-VERBOSE=""
+VERBOSE="-s"
 
 while [ "$1" != "" ]; do
 	PARAM=`echo $1 | awk -F= '{print $1}'`
