@@ -19,8 +19,8 @@ function print_usage() {
 	# -H 'Cache-Control: no-cache' --compressed
 
 	echo "Usage:"
-	echo -e "\t${SCRIPT_NAME} --email=<email> --password=<password>"
-	echo -e "\t\t --event_id=<event_id> [--start_date=${PERIOD_START}] [--end_date=${PERIOD_END}]"
+	echo -e "\t${SCRIPT_NAME} --email=<email> --password=<password> --event_id=<event_id> "
+	echo -e "\t\t[--start_date=${PERIOD_START}] [--end_date=${PERIOD_END}] [--verbose]"
 	echo ""
 	cat <<- EOM
 	event_id	description
